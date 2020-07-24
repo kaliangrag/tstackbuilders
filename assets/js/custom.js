@@ -176,6 +176,12 @@ function getIP(json) {
 					pricingCompany = "₦70000",
 					pricingBusiness = "₦100000+"
 				break;
+				
+			case "South Africa":
+				pricingStartup = "R1330",
+					pricingCompany = "R12000",
+					pricingBusiness = "R18000+"
+			break;
 
 			default:
 				pricingStartup = "₹5000",
