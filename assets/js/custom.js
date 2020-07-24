@@ -179,7 +179,7 @@ function getIP(json) {
 
 			default:
 				pricingStartup = "₹5000",
-					pricingCompany = "₹1200",
+					pricingCompany = "₹12000",
 					pricingBusiness = "₹15000+"
 				break;
 		}
