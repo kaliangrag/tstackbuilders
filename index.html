@@ -325,7 +325,7 @@
     </section>
     <!-- ***** Testimonials End ***** -->
 
-    <!-- ***** Pricing Plans Start ***** -->
+   <!-- ***** Pricing Plans Start ***** -->
     <section class="section colored" id="pricing">
         <div class="container">
             <!-- ***** Section Title Start ***** -->
@@ -349,16 +349,15 @@
                     data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                     <div class="pricing-item">
                         <div class="pricing-header">
-                            <h3 class="pricing-title">Basic Plan</h3>
+                            <h3 class="pricing-title">Startup</h3>
                         </div>
                         <div class="pricing-body">
                             <div class="price-wrapper">
-                                <span class="currency">₹</span>
-                                <span class="price">5000</span>
+                                <span class="price" id="pricingStartup"></span>
                                 <span class="period">Starting</span>
                             </div>
                             <ul class="list">
-                                <li class="active">Up To 5 pages</li>
+                                <li class="active">7 pages</li>
                                 <li class="active">Design Prototype</li>
                                 <li class="active">1 month support</li>
                                 <li class="active">5 revisions</li>
@@ -377,18 +376,17 @@
                     data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                     <div class="pricing-item active">
                         <div class="pricing-header">
-                            <h3 class="pricing-title">Standard Plan</h3>
+                            <h3 class="pricing-title">Company</h3>
                         </div>
                         <div class="pricing-body">
                             <div class="price-wrapper">
-                                <span class="currency">₹</span>
-                                <span class="price">10000</span>
+                                <span class="price" id="pricingCompany"></span>
                                 <span class="period">Starting</span>
                             </div>
                             <ul class="list">
-                                <li class="active">15 Pages</li>
+                                <li class="active">20 Pages</li>
                                 <li class="active">SEO Optimization</li>
-                                <li class="active">3 Month support</li>
+                                <li class="active">Custom Features</li>
                                 <li class="active">Blog</li>
                                 <li class="active">24/7 Security</li>
                             </ul>
@@ -405,18 +403,17 @@
                     data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
                     <div class="pricing-item">
                         <div class="pricing-header">
-                            <h3 class="pricing-title">Enterprise Plan</h3>
+                            <h3 class="pricing-title">Business</h3>
                         </div>
                         <div class="pricing-body">
                             <div class="price-wrapper">
-                                <span class="currency">₹</span>
-                                <span class="price">20000+</span>
+                                <span class="price" id="pricingBusiness"></span>
                                 <span class="period">Starting</span>
                             </div>
                             <ul class="list">
-                                <li class="active">Unlimited Pages</li>
-                                <li class="active">SEO Optimization</li>
-                                <li class="active">6 Month support</li>
+                                <li class="active">Custom Backend</li>
+                                <li class="active">Payments Gateway</li>
+                                <li class="active">Live chat support</li>
                                 <li class="active">Email CRM</li>
                                 <li class="active">24/7 Security</li>
                             </ul>
@@ -427,11 +424,10 @@
                     </div>
                 </div>
                 <!-- ***** Pricing Item End ***** -->
-                
             </div>
         </div>
     </section>
-    <!-- ***** Pricing Plans End ***** -->
+    <!-- ***** Pricing Plans End ***** --> 
 
     <!-- ***** Counter Parallax Start ***** -->
     <section class="counter">
@@ -633,6 +629,9 @@
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/imgfix.min.js"></script>
+                            
+    <!-- Location API -->
+    <script src="//extreme-ip-lookup.com/json/?callback=getIP" async defer></script>
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
