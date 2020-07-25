@@ -322,7 +322,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  background-color: #009FE6;
 }
 
 a.main-button {
@@ -340,7 +340,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #00e695;
 }
 
 button.main-button {
@@ -557,7 +557,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #009FE6;
 }
 
 @media (max-width: 1200px) {
@@ -1472,7 +1472,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
+  background-color: #009FE6;
   color: #fff;
 }
 
