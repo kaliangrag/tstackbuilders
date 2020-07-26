@@ -1699,7 +1699,6 @@ preloader
 /* Our Partners CSS */
 
 .our-partners {
-  height: 50vh;
   overflow: hidden;
   display: -webkit-box;
   display: flex;
