@@ -2050,7 +2050,7 @@ select {
 
 .right-image-font {
   color: black;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Satisfy', cursive !important;
   font-size: 40px;
 }
 
